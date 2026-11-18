@@ -1,6 +1,6 @@
-import entity
+from entity import Entity
 
-class Player(entity.Entity):
+class Player(Entity):
   def __init__(self, name):
     super().__init__(name, 100)
   
